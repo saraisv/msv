@@ -50,7 +50,7 @@ p {
 
 #home p,
 #contact p, footer p {
-  color: #000000;
+  color: #ffffff;
   font-weight: bold;
 }
 
@@ -316,7 +316,7 @@ a:hover, a:active, a:focus {
 }
 
 #home h1 {
-  color: #000000;
+  color: #ffffff;
   font-weight: bold;
   
 }
