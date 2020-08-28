@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-  color: #f4d405;
+  color: #a11f35;
   font-size: 1.2rem;
   font-weight: bold;
   letter-spacing: 4px;
@@ -42,16 +42,18 @@ h3 {
 }
 
 p {
-  color: rgb(0, 0, 0);
+  color: rgb(68, 68, 68);
   font-size: 20px;
   letter-spacing: 1px;
   line-height: 34px;
+  text-align: justify;
 }
 
 #home p,
 #contact p, footer p {
   color: #ffffff;
   font-weight: bold;
+  text-align: center;
 }
 
 .btn {
@@ -74,18 +76,18 @@ p {
 }
 
 .btn-success:hover {
-  background: #f4d405;
+  background: #222;
 }
 
 a {
-  color: #f4d405;
+  color: #a11f35;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #f4d405;
+  color: #a11f35;
   outline: none;
 }
 
@@ -130,7 +132,7 @@ a:hover, a:active, a:focus {
 }
 
 .overlay {
-  background: #30435236;
+  background: #30435256;
   opacity: 0.9;
   position: absolute;
   width: 100%;
@@ -158,7 +160,7 @@ a:hover, a:active, a:focus {
 .sk-spinner-pulse {
   width: 60px;
   height: 60px;
-  background-color: #f4d405;
+  background-color: #a11f35;
   border-radius: 100%;
   margin: 40px auto;
   -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
@@ -318,7 +320,6 @@ a:hover, a:active, a:focus {
 #home h1 {
   color: #ffffff;
   font-weight: bold;
-  
 }
 
 #home .col-md-8 {
@@ -327,7 +328,6 @@ a:hover, a:active, a:focus {
 
 #about {
   background: #f0f0f0;
-  
 }
 
 #about .item {
@@ -374,45 +374,16 @@ a:hover, a:active, a:focus {
 #about .team-thumb .heading {
   font-weight: bold;
   position: relative;
-  top: 10px;
+  top: 15px;
   -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
   transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-#about .team-thumb:hover {
-  background: #00000000;
-}
-
-#about .team-thumb:hover .image-holder {
-  top: -40px;
-  margin-bottom: 0px;
-}
-
-#about .team-thumb .heading {
-  top: -10px;
 }
 
 #about .team-thumb .description {
   font-size: 18px;
   width: 80%;
-  margin: 0 auto;
-  opacity: 0;
-  -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  transform: scale(0);
-}
-
-#about .team-thumb:hover .description {
-  opacity: 1;
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-}
-
-#about .team-thumb p.description {
-  color: #000000;
+  margin: 25px auto;
+  text-align: center;
 }
 
 
