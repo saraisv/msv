@@ -380,7 +380,7 @@ a:hover, a:active, a:focus {
 }
 
 #about .team-thumb:hover {
-  background: #000000;
+  background: #00000000;
 }
 
 #about .team-thumb:hover .image-holder {
@@ -388,7 +388,7 @@ a:hover, a:active, a:focus {
   margin-bottom: 0px;
 }
 
-#about .team-thumb:hover .heading {
+#about .team-thumb .heading {
   top: -10px;
 }
 
@@ -411,8 +411,8 @@ a:hover, a:active, a:focus {
   transform: scale(1);
 }
 
-#about .team-thumb:hover p.description {
-  color: #ffffff;
+#about .team-thumb p.description {
+  color: #000000;
 }
 
 
